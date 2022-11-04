@@ -10,6 +10,8 @@ html {
   font-size: 62.5%;
 }
 
+/* LAYOUT */
+
 body {
   font-family: 'Montserrat', sans-serif;
   color: #fff;
@@ -22,7 +24,7 @@ body {
   display: block;
   overflow: auto;
   width: 70vw;
-  max-width: 900px;
+  max-width: 600px;
   min-width: 400px;
   margin: 4rem auto;
   border-radius: 20px;
@@ -66,6 +68,8 @@ main {
   text-align: center;
 }
 
+/* TYPOGRAPHY */
+
 h1, 
 input,
 #convert-btn {
@@ -90,6 +94,25 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #5D4550;
+}
+
+/* BUTTONS */
+
 button {
   font-family: 'Montserrat', sans-serif;
   color: #5D4550;
@@ -107,21 +130,4 @@ button {
 button:hover {
   background-color: #DFD9CD;
   cursor: pointer;
-}
-
-h1 {
-  font-size: 3rem;
-  font-weight: 700;
-  letter-spacing: -1px;
-}
-
-h2 {
-  font-size: 1.8rem;
-  margin-bottom: 1rem;
-}
-
-p {
-  font-size: 1.4rem;
-  font-weight: 600;
-  color: #5D4550;
 }

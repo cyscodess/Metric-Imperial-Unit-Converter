@@ -2,7 +2,7 @@ let lengthVal = document.getElementById("convert-length")
 let volumeVal = document.getElementById("convert-vol")
 let massVal = document.getElementById("convert-mass")
 
-let value = document.getElementById("value-el")
+let valueField = document.getElementById("value-el")
 
 let lengthFeet = ""
 let lengthMeters = ""
@@ -14,7 +14,7 @@ let massPounds = ""
 const convertBtn = document.getElementById("convert-btn")
 
 convertBtn.addEventListener("click", function() {
-  inputValue = value.value
+  inputValue = valueField.value
   //length
   lengthFeet = (inputValue * 3.281).toFixed(3)
   lengthMeters = (inputValue / 3.281).toFixed(3)
