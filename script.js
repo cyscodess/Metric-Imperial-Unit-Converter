@@ -28,7 +28,7 @@ convertBtn.addEventListener("click", function() {
 })
 
 function render() {
-  lengthVal.textContent = `${inputValue} meters = ${lengthFeet} feet | ${value.value} feet = ${lengthMeters} meters`
-  volumeVal.textContent = `${inputValue} liters = ${volumeGallons} gallons | ${value.value} gallons = ${volumeLiters} liters`
-  massVal.textContent = `${inputValue} kilos = ${massKilos} pounds | ${value.value} pounds = ${massPounds} kilos`
+  lengthVal.textContent = `${inputValue} meters = ${lengthFeet} feet | ${inputValue} feet = ${lengthMeters} meters`
+  volumeVal.textContent = `${inputValue} liters = ${volumeGallons} gallons | ${inputValue} gallons = ${volumeLiters} liters`
+  massVal.textContent = `${inputValue} kilos = ${massKilos} pounds | ${inputValue} pounds = ${massPounds} kilos`
 }
